@@ -1,0 +1,237 @@
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+    /* The navbar */
+    .topnav {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+      background-color: transparent;
+    }
+    ul {
+      list-style-type: none;
+      margin-left : 200px;
+      padding: 20px;
+      overflow: hidden;
+      background-color:transparent;
+    }
+    
+    li {
+      font-size: 20px;
+      margin-left: 20px;
+      float: left;
+      text-align: left;
+    }
+    
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover {
+      background-color: rgb(1, 165, 253);
+    }
+  
+  
+  
+    
+    .bg-img {
+      /* The image used */
+      background-image: url("./assets/asset25.webp");
+      width: 100;
+      min-height: 700px;
+  
+  
+    .container-flex{
+      display: flex;
+      flex-direction: row;
+      margin-left: 150px;
+    }
+    
+    /* Navbar links */
+    .topnav ul{
+      float: right;
+      display: flex;
+      list-style : none;
+    }
+    .topnav a {
+      float: left;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    
+    .topnav a:hover {
+      opacity: 1;
+      color: white;
+    }
+  
+    .btn-for-enquiry{
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      background-color: rgb(1, 165, 253);
+      border: none;
+    }
+  
+    button:hover{
+      opacity: 1;
+      color: black;
+    }
+  
+    
+  
+  
+    /* container  form */
+    form {
+      font-family: Arial;
+    }
+    h2{
+      margin-top: 30px;
+      text-align: center;
+    }
+      .abc{
+        padding: 5px;
+        background-color:rgba(207, 222, 237, 0.5);
+      }
+  
+      input[type=text], input[type=submit] {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+      
+      input[type=checkbox] {
+        margin-top: 16px;
+      }
+      
+      input[type=submit] {
+        background-color: #04AA6D;
+        color: white;
+        border: none;
+      }
+      
+      input[type=submit]:hover {
+        opacity: 0.8;
+      }
+  
+      .btn-for-textbox{
+      margin-left: 80px;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 150px ;
+      text-decoration: none;
+      background-color: rgb(1, 165, 253);
+      border: none;
+      border: white solid 2px;
+      }
+  
+      .pdg-for-textbox{
+        padding:100px
+      }
+      
+    }
+
+    .card-bgcolor{
+        background-color:rgba(207, 222, 237, 0.5);
+        padding: 80px;
+    
+    
+    }
+    .cards{
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding:20px;
+        text-align: center;
+        display: inline-block;
+        margin: 30px;
+      }
+      
+      img{
+          padding: 5px;
+          width: 150px;
+      } 
+      p {
+        text-align: justify;
+      }
+    
+      label{
+        text-align: center;
+      }
+    
+      h1{
+        text-align: center;
+      }
+     
+    
+      .card-box{
+        padding :50px;
+    
+      }
+    
+    
+      .aminities{
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        padding:20px;
+        text-align: center;
+        display: inline-block;
+        margin: 30px
+      }
+    
+      .service-head{
+        margin-left: 550px;
+        margin-right: 500px;
+        background-color:rgb(139, 214, 249);
+        border-radius: 25px;
+    
+      }
+      .service-head p{
+        color: rgb(2, 147, 250);
+        padding:10px;
+        text-align: center;
+      }
+    
+       .ami-logo-round{
+        margin-left: 37px;
+        text-align: center;
+        width: 60px;
+        height: 60px;
+        border: transparent;
+        background-color:rgb(139, 214, 249);
+        border-radius: 50%;
+        }
+    
+      .img-logo{
+        text-align: center;
+        width:23px;
+        height:23px;
+        margin-top: 20px;
+      }
+    
+    
+      .aminities h1{
+        font-size: 20px;
+      }
+      
+    
