@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.imgsize {
+  width: 80px;
+}
+
+.header {
+  min-height: 100vh;
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  /* background-color: red; */
+}
+
+
+
+
+/* navbar start here */
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5% 6%;
+}
+
+nav .links {
+  flex: 1;
+  text-align: right;
+
+}
+
+nav .links ul {
+  padding: 2%;
+}
+
+nav .links ul li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+}
+
+nav .links ul li a {
+  text-decoration: none;
+  /* padding-right: 20px; */
+  color: white;
+  margin-right: 50px;
+  text-shadow: 8px 4px 10px black;
+}
+
+
+nav .links ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: red;
+  display: block;
+  margin: auto;
+}
+
+nav .links ul li a :hover::after {
+  width: 100%;
+}
+
+
+/* service-txt css */
+.service-txt {
+  padding: 2%;
+  text-align: center;
+  font-weight: 100;
+}
+
+.red {
+  color: red;
+}
+
+/* :end */
+
+
+
+
+/* flipcard css start here */
+
+
+.flip-card {
+  display: flex;
+  background-color: transparent;
+  width: 20%;
+  height: 300px;
+  perspective: 1000px;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 50px;
+
+}
+
+.flip-card-inner {
+  /* margin-left: 12%; */
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+  box-shadow: 0 8px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  /* box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+      -5px -5px 30px 15px rgba(0,0,0,0.22); */
+
+  box-shadow: 5px 5px 30px 15px rgba(239, 61, 61, 0.815),
+    -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  border-radius: 50px;
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.center {
+  align-items: center;
+  /* margin-top:5%; */
+  display: flex;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%
+}
+
+/* flipcard css ends here */
+
+
+/* footer start here */
+.footer {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
